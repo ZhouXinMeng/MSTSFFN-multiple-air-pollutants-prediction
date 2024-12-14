@@ -56,4 +56,4 @@ Model hyperparameters:<br>
 ## Citation
 To Cite MSTSFF in Publications<br>
 - A paper describing MSTSFF will be submitted to a scientific journal for publication soon<br>
-- For now, you may just cite the URL of the source codes of MSTSFF (https://github.com/HPSCIL/MSTSFF) in your publications</font>
+- For now, you may just cite the URL of the source codes of MSTSFF (https://github.com/HPSCIL/MSTSFF-multiple-air-pollutants-prediction) in your publications</font>
