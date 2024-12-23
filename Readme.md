@@ -1,4 +1,4 @@
-# MSTSFF 
+# MSTSFFN 
 
 ### A multiscale spatial-temporal-spectral feature fusion network for predicting multiple air pollutants ###
 
@@ -6,11 +6,11 @@
 This repo is the implementation of our manuscript entitled A multiscale spatial-temporal-spectral feature fusion network for predicting multiple air pollutants. The code is based on Pytorch 1.12.1, and tested on a GeForce RTX 4090 GPU with 24GB memory.
 
 
-Accurate prediction of air quality at urban monitoring stations, while accounting for the complex interactions and impacts among multiple pollutants, is crucial for enhancing urban environmental quality and public health. However, current research predominantly focuses on predicting individual pollutant indicators, without incorporating the interactions between pollutants into the modeling process, leading to limitations in prediction accuracy and capability. To address this issue, a Multiscale Spatial-Temporal-Spectral Feature Fusion Network (MSTSFF) for predicting multiple air pollutants at air quality monitoring stations is proposed. Experimental results on three urban air quality datasets showed that the proposed MSTSFF outperformed the state-of-the-art methods in prediction various pollutants. MSTSFF's structural framework and key modules for characterizing and fusing the multiscale features in temporal, spatial and spectral dimensions can also serve as the fundamental components of more general modeling structures for other multi-variant spatio-temporal dynamics. 
+Accurate prediction of air quality at urban monitoring stations, while accounting for the complex interactions and impacts among multiple pollutants, is crucial for enhancing urban environmental quality and public health. However, current research predominantly focuses on predicting individual pollutant indicators, without incorporating the interactions between pollutants into the modeling process, leading to limitations in prediction accuracy and capability. To address this issue, a Multiscale Spatial-Temporal-Spectral Feature Fusion Network (MSTSFFN) for predicting multiple air pollutants at air quality monitoring stations is proposed. Experimental results on three urban air quality datasets showed that the proposed MSTSFF outperformed the state-of-the-art methods in prediction various pollutants. MSTSFF's structural framework and key modules for characterizing and fusing the multiscale features in temporal, spatial and spectral dimensions can also serve as the fundamental components of more general modeling structures for other multi-variant spatio-temporal dynamics. 
 
 ## Framework
 
-![MSTSFF](./Fig/MSTSFF.png)
+![MSTSFFN](./Fig/MSTSFFN.png)
 
 
 ## Requirements
@@ -22,10 +22,10 @@ MSTSFF uses the following dependencies
 
 ## Folder Structure
 We list the code of the major modules as follows:<br>
-- The main function to train/test our model: [click here](./MSTSFF/MODEL/main.py)<br>
-- The source code of our model: [click here](./MSTSFF/MODEL/model.py)<br>
-- Train and test data preporcessing are located at: [click here](./MSTSFF/MODEL/data_preprocess.py)<br>
-- Metric computations: [click here](./MSTSFF/MODEL/utils.py)<br>
+- The main function to train/test our model: [click here](./MSTSFFN/MODEL/main.py)<br>
+- The source code of our model: [click here](./MSTSFFN/MODEL/model.py)<br>
+- Train and test data preporcessing are located at: [click here](./MSTSFFN/MODEL/data_preprocess.py)<br>
+- Metric computations: [click here](./MSTSFFN/MODEL/utils.py)<br>
 
 ## Arguments
 We introduce some major arguments of our main function here.
@@ -54,6 +54,6 @@ Model hyperparameters:<br>
 
 
 ## Citation
-To Cite MSTSFF in Publications<br>
-- A paper describing MSTSFF will be submitted to a scientific journal for publication soon<br>
-- For now, you may just cite the URL of the source codes of MSTSFF (https://github.com/HPSCIL/MSTSFF-multiple-air-pollutants-prediction) in your publications</font>
+To Cite MSTSFFN in Publications<br>
+- A paper describing MSTSFFN will be submitted to a scientific journal for publication soon<br>
+- For now, you may just cite the URL of the source codes of MSTSFFN (https://github.com/HPSCIL/MSTSFFN-multiple-air-pollutants-prediction) in your publications</font>
